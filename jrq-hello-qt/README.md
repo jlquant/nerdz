@@ -59,7 +59,5 @@
   and
   `export LIBRARY_PATH=/home/user/Qt5.5.1/5.5/gcc_64/lib`
   to make it finally configure OK.
-* `make && make install`
-  
-  
-
+* `make && make install` but this failed with `make[1]: /usr/lib/x86_64-linux-gnu/qt5/bin/moc: Command not found`
+  so I ran `sudo apt-get install qtbase5-dev-tools` and ran again.
